@@ -1,0 +1,52 @@
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #fff;
+    color:#000;
+    font-size: 20px;
+    border-radius: 15px;
+}
+span{
+    color: rgb(246, 238, 1);
+}
+
+.massage{
+
+text-align: center;
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+p{
+    color: #fff;
+    font-size: 25px;
+    width: 225px;
+
+}
+.none{
+    display: none;
+}
